@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShelfPriceCounting.UI", "ShelfPriceCounting.UI\ShelfPriceCounting.UI.csproj", "{7B5B79B7-1826-436B-8587-432D9486A52F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShelfPriceCounting.Rounding", "ShelfPriceCounting.Rounding\ShelfPriceCounting.Rounding.csproj", "{4472484F-3A51-426D-934D-FD4CEF11383E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShelfPriceCounting.Business", "ShelfPriceCounting.Business\ShelfPriceCounting.Business.csproj", "{A3B3D815-8E7C-4012-A57E-94D2F3A6AA63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShelfPriceCounting.Bootstrapping", "ShelfPriceCounting.Bootstrapping\ShelfPriceCounting.Bootstrapping.csproj", "{59B07E87-1052-497A-8187-32DFA1312881}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShelfPriceCounting.Model", "ShelfPriceCounting.Model\ShelfPriceCounting.Model.csproj", "{2C6F7BC1-DE81-4641-87B4-321E8F35FD5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShelfPriceCounting.DAL", "ShelfPriceCounting.DataAccess\ShelfPriceCounting.DAL.csproj", "{9932351B-CAF6-48EB-9905-B1CE57A7E1F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShelfPriceCounting.DAL.JSON", "ShelfPriceCounting.DAL.JSON\ShelfPriceCounting.DAL.JSON.csproj", "{256230E9-6FCC-4ED3-8433-16C48AF8F9F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShelfPriceCounting.Rounding.UpToTheNearest", "ShelfPriceCounting.Rounding.UpToTheNearest\ShelfPriceCounting.Rounding.UpToTheNearest.csproj", "{584E8D21-5253-41D3-8962-84E7721B2A4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShelfPriceCounting.TaxSettings", "ShelfPriceCounting.TaxSettings\ShelfPriceCounting.TaxSettings.csproj", "{BA866EBB-0F24-4640-A2CE-BF1CBB66FDF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShelfPriceCounting.TaxSettings.AppConfig", "ShelfPriceCounting.TaxSettings.AppConfig\ShelfPriceCounting.TaxSettings.AppConfig.csproj", "{19910F9C-2375-4F3A-B6E8-219256A463C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B5B79B7-1826-436B-8587-432D9486A52F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B5B79B7-1826-436B-8587-432D9486A52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B5B79B7-1826-436B-8587-432D9486A52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B5B79B7-1826-436B-8587-432D9486A52F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4472484F-3A51-426D-934D-FD4CEF11383E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4472484F-3A51-426D-934D-FD4CEF11383E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4472484F-3A51-426D-934D-FD4CEF11383E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4472484F-3A51-426D-934D-FD4CEF11383E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B3D815-8E7C-4012-A57E-94D2F3A6AA63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B3D815-8E7C-4012-A57E-94D2F3A6AA63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B3D815-8E7C-4012-A57E-94D2F3A6AA63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B3D815-8E7C-4012-A57E-94D2F3A6AA63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59B07E87-1052-497A-8187-32DFA1312881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B07E87-1052-497A-8187-32DFA1312881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59B07E87-1052-497A-8187-32DFA1312881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59B07E87-1052-497A-8187-32DFA1312881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C6F7BC1-DE81-4641-87B4-321E8F35FD5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C6F7BC1-DE81-4641-87B4-321E8F35FD5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C6F7BC1-DE81-4641-87B4-321E8F35FD5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C6F7BC1-DE81-4641-87B4-321E8F35FD5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9932351B-CAF6-48EB-9905-B1CE57A7E1F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9932351B-CAF6-48EB-9905-B1CE57A7E1F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9932351B-CAF6-48EB-9905-B1CE57A7E1F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9932351B-CAF6-48EB-9905-B1CE57A7E1F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{256230E9-6FCC-4ED3-8433-16C48AF8F9F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{256230E9-6FCC-4ED3-8433-16C48AF8F9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{256230E9-6FCC-4ED3-8433-16C48AF8F9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{256230E9-6FCC-4ED3-8433-16C48AF8F9F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{584E8D21-5253-41D3-8962-84E7721B2A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584E8D21-5253-41D3-8962-84E7721B2A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584E8D21-5253-41D3-8962-84E7721B2A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584E8D21-5253-41D3-8962-84E7721B2A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA866EBB-0F24-4640-A2CE-BF1CBB66FDF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA866EBB-0F24-4640-A2CE-BF1CBB66FDF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA866EBB-0F24-4640-A2CE-BF1CBB66FDF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA866EBB-0F24-4640-A2CE-BF1CBB66FDF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19910F9C-2375-4F3A-B6E8-219256A463C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19910F9C-2375-4F3A-B6E8-219256A463C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19910F9C-2375-4F3A-B6E8-219256A463C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19910F9C-2375-4F3A-B6E8-219256A463C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

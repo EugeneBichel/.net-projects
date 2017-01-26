@@ -1,0 +1,103 @@
+﻿[{
+	"Id": 0,
+	"Name": "Shopping Basket 1",
+	"Products": [{
+		"Id": 0,
+		"Name": "book",
+		"Price": 12.49,
+		"Count": 1,
+		"ProductDescription": {
+			"Id": 0,
+			"BasicTaxApplicable": false,
+			"Imported": false
+		}
+	}, {
+		"Id": 1,
+		"Name": "music CD",
+		"Price": 14.99,
+		"Count": 1,
+		"ProductDescription": {
+			"Id": 1,
+			"BasicTaxApplicable": true,
+			"Imported": false
+		}
+	}, {
+		"Id": 2,
+		"Name": "chocolate bar",
+		"Price": 0.85,
+		"Count": 1,
+		"ProductDescription": {
+			"Id": 2,
+			"BasicTaxApplicable": false,
+			"Imported": false
+		}
+	}]
+}, {
+	"Id": 1,
+	"Name": "Shopping Basket 2",
+	"Products": [{
+		"Id": 3,
+		"Name": "imported box of chocolates",
+		"Price": 10.00,
+		"Count": 1,
+		"ProductDescription": {
+			"Id": 3,
+			"BasicTaxApplicable": false,
+			"Imported": true
+		}
+	}, {
+		"Id": 4,
+		"Name": "imported bottle of perfume",
+		"Price": 47.50,
+		"Count": 1,
+		"ProductDescription": {
+			"Id": 4,
+			"BasicTaxApplicable": true,
+			"Imported": true
+		}
+	}]
+}, {
+	"Id": 2,
+	"Name": "Shopping Basket 3",
+	"Products": [{
+		"Id": 5,
+		"Name": "imported bottle of perfume",
+		"Price": 27.99,
+		"Count": 1,
+		"ProductDescription": {
+			"Id": 5,
+			"BasicTaxApplicable": true,
+			"Imported": true
+		}
+	}, {
+		"Id": 6,
+		"Name": "bottle of perfume",
+		"Price": 18.99,
+		"Count": 1,
+		"ProductDescription": {
+			"Id": 6,
+			"BasicTaxApplicable": true,
+			"Imported": false
+		}
+	}, {
+		"Id": 7,
+		"Name": "packet of headache pills",
+		"Price": 9.75,
+		"Count": 1,
+		"ProductDescription": {
+			"Id": 7,
+			"BasicTaxApplicable": false,
+			"Imported": false
+		}
+	}, {
+		"Id": 8,
+		"Name": "imported box of chocolates",
+		"Price": 11.25,
+		"Count": 1,
+		"ProductDescription": {
+			"Id": 8,
+			"BasicTaxApplicable": false,
+			"Imported": true
+		}
+	}]
+}]
