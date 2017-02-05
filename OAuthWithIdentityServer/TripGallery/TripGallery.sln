@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripCompany.IdentityServer", "TripCompany.IdentityServer\TripCompany.IdentityServer.csproj", "{9716BDDB-A59E-442B-A84A-A83F386AF9FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{F344765D-8FA7-47DB-87B7-F56B7064C8E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{B04E03C0-B326-44D9-9568-F8F12A0B71C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{82BF836B-2E23-45E6-AC95-77E5A0E1A372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripGallery.Constants", "TripGallery.Constants\TripGallery.Constants.csproj", "{B2673954-F2A8-4F3E-AA2F-5B64DE9FCE44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9716BDDB-A59E-442B-A84A-A83F386AF9FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9716BDDB-A59E-442B-A84A-A83F386AF9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9716BDDB-A59E-442B-A84A-A83F386AF9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9716BDDB-A59E-442B-A84A-A83F386AF9FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2673954-F2A8-4F3E-AA2F-5B64DE9FCE44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2673954-F2A8-4F3E-AA2F-5B64DE9FCE44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2673954-F2A8-4F3E-AA2F-5B64DE9FCE44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2673954-F2A8-4F3E-AA2F-5B64DE9FCE44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2673954-F2A8-4F3E-AA2F-5B64DE9FCE44} = {82BF836B-2E23-45E6-AC95-77E5A0E1A372}
+	EndGlobalSection
+EndGlobal
