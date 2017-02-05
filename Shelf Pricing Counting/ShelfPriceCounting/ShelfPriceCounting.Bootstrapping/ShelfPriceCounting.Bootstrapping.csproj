@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{59B07E87-1052-497A-8187-32DFA1312881}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ShelfPriceCounting.Bootstrapping</RootNamespace>
+    <AssemblyName>ShelfPriceCounting.Bootstrapping</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.RegistrationByConvention, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.RegistrationByConvention.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bootstrapper.cs" />
+    <Compile Include="IoCContainer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShelfPriceCounting.DAL.JSON\ShelfPriceCounting.DAL.JSON.csproj">
+      <Project>{256230E9-6FCC-4ED3-8433-16C48AF8F9F9}</Project>
+      <Name>ShelfPriceCounting.DAL.JSON</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShelfPriceCounting.DataAccess\ShelfPriceCounting.DAL.csproj">
+      <Project>{9932351B-CAF6-48EB-9905-B1CE57A7E1F4}</Project>
+      <Name>ShelfPriceCounting.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShelfPriceCounting.Business\ShelfPriceCounting.Business.csproj">
+      <Project>{a3b3d815-8e7c-4012-a57e-94d2f3a6aa63}</Project>
+      <Name>ShelfPriceCounting.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShelfPriceCounting.Rounding.UpToTheNearest\ShelfPriceCounting.Rounding.UpToTheNearest.csproj">
+      <Project>{584e8d21-5253-41d3-8962-84e7721b2a4a}</Project>
+      <Name>ShelfPriceCounting.Rounding.UpToTheNearest</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShelfPriceCounting.Rounding\ShelfPriceCounting.Rounding.csproj">
+      <Project>{4472484f-3a51-426d-934d-fd4cef11383e}</Project>
+      <Name>ShelfPriceCounting.Rounding</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShelfPriceCounting.TaxSettings.AppConfig\ShelfPriceCounting.TaxSettings.AppConfig.csproj">
+      <Project>{19910f9c-2375-4f3a-b6e8-219256a463c9}</Project>
+      <Name>ShelfPriceCounting.TaxSettings.AppConfig</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShelfPriceCounting.TaxSettings\ShelfPriceCounting.TaxSettings.csproj">
+      <Project>{ba866ebb-0f24-4640-a2ce-bf1cbb66fdf5}</Project>
+      <Name>ShelfPriceCounting.TaxSettings</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
